@@ -1,0 +1,39 @@
+html, body {
+    height: 100%; 
+    margin: 0;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    background-image:url(hb.webp); 
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+
+button {
+    background-color: #71cde1; 
+    border: none; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 8px; 
+    transition: background-color 0.3s ease; 
+    animation: celebrate 1s ease-in-out 0s infinite alternate-reverse;
+}
+
+
+
+@keyframes celebrate{
+    from{
+        background-color: rgb(119, 191, 199);
+    }
+    to{
+        background-color: rgb(159, 140, 222);
+    }
+}
